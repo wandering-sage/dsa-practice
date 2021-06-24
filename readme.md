@@ -6,5 +6,4 @@
 
 
 # Day-1:
-### Problem #1:
-- 75: Sort Colors. [Problem Link](https://leetcode.com/problems/sort-colors/ "LeetCode")
+### 1.  ---> [Sort Colors](https://leetcode.com/problems/sort-colors/ "LeetCode") ------------> Array, Two Pointers, Sorting
