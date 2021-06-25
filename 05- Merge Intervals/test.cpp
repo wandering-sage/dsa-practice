@@ -39,23 +39,37 @@ const int mod = 1'000'000'007;
 const int N = 3e5, M = N;
 //=======================
 
+bool compareInterval(vector<int> i1, vector<int> i2)
+{
+  return (i1[0] < i2[0]);
+}
+
 void solve()
 {
-  long long n = 2;
-  vi arr = {2, 2};
-  long long sum = 0;
-  long long sqSum = 0;
-  for (int i = 0; i < n; i++)
+  int n = 4;
+  int m = 5;
+  vvi intervals{
+      {2, 3},
+      {4, 5},
+      {6, 7},
+      {1, 10}};
+  sort(intervals.begin(), intervals.end(), compareInterval);
+  vector<vector<int>> ret;
+  vector<int> cur = intervals[0];
+  for (int i = 0; i < intervals.size() - 1; i++)
   {
-    sum += arr[i];
-    sqSum += (long long)arr[i] * arr[i];
+    if (cur[1] >= intervals[i + 1][0])
+    {
+      cur[1] = max(intervals[i + 1][1], cur[1]);
+    }
+    else
+    {
+      ret.push_back(cur);
+      cur = intervals[i + 1];
+    }
   }
-  long long diff = n * (n + 1) / 2 - sum;
-  long long sqDiff = n * (n + 1) * ((2 * n) + 1) / 6 - sqSum;
-  long long mrSum = sqDiff / diff;
-  int rep = (mrSum - diff) / 2;
-  int missing = (mrSum + diff) / 2;
-  cout << rep << " " << missing;
+  ret.push_back(cur);
+  cout << "Hello";
 }
 
 int main()

@@ -41,21 +41,44 @@ const int N = 3e5, M = N;
 
 void solve()
 {
-  long long n = 2;
-  vi arr = {2, 2};
-  long long sum = 0;
-  long long sqSum = 0;
-  for (int i = 0; i < n; i++)
+  int n = 4;
+  int m = 5;
+  vi arr1 = {1, 3, 5, 7};
+  vi arr2 = {0, 2, 6, 8, 9};
+  int gap = n + m;
+  while (gap != 1)
   {
-    sum += arr[i];
-    sqSum += (long long)arr[i] * arr[i];
+    gap = ceil((float)gap / 2);
+    int ptr1 = 0;
+    int ptr2 = gap;
+    bool inSecond = false;
+    bool bothInSecond = false;
+    while (true)
+    {
+      if (!inSecond && ptr2 >= n)
+      {
+        ptr2 -= n;
+        inSecond = true;
+      }
+      if (!bothInSecond && ptr1 >= n)
+      {
+        ptr1 -= n;
+        bothInSecond = true;
+      }
+      if (inSecond && ptr2 >= m)
+        break;
+      if (!bothInSecond && inSecond && arr1[ptr1] > arr2[ptr2])
+        swap(arr1[ptr1], arr2[ptr2]);
+      if (!inSecond && arr1[ptr1] > arr1[ptr2])
+        swap(arr1[ptr1], arr1[ptr2]);
+      if (bothInSecond && arr2[ptr1] > arr2[ptr2])
+        swap(arr2[ptr1], arr2[ptr2]);
+
+      ptr1++;
+      ptr2++;
+    }
   }
-  long long diff = n * (n + 1) / 2 - sum;
-  long long sqDiff = n * (n + 1) * ((2 * n) + 1) / 6 - sqSum;
-  long long mrSum = sqDiff / diff;
-  int rep = (mrSum - diff) / 2;
-  int missing = (mrSum + diff) / 2;
-  cout << rep << " " << missing;
+  cout << "Hello";
 }
 
 int main()

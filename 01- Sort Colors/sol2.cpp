@@ -3,6 +3,8 @@ using namespace std;
 
 // Two pointers Meathod also known as Dutch National Flag Algorithm
 
+// time-->O(N)          space-->O(1)
+
 void sortColors(vector<int> &nums)
 {
   int l = 0;

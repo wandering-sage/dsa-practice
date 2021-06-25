@@ -1,7 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Counting Sort
+// Using Counting Sort
+
+// time-->O(N)          space-->O(1)
 
 void sortColors(vector<int> &nums)
 {

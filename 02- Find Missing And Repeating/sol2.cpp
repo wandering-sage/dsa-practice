@@ -1,20 +1,22 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Using Sorting
+// Using Hash map
 
-// time-->O(N*logN)          space-->O(1)
+// time-->O(N)           space-->O(N)
 
 vector<int> findTwoElement(int *arr, long long n)
 {
-  sort(arr, arr + n);
+  vector<bool> hMap(n + 1, false);
   int rep = -1;
   long long sum = 0;
   for (int i = 0; i < n; i++)
   {
     sum += arr[i];
-    if (i < n - 1 && arr[i] == arr[i + 1])
+    if (hMap[arr[i]])
       rep = arr[i];
+    else
+      hMap[arr[i]] = true;
   }
   long long diff = n * (n + 1) / 2 - sum;
   long long missing = rep + diff;
