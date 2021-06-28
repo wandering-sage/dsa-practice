@@ -18,3 +18,13 @@
 ### 5. ---> [Merge Intervals](https://leetcode.com/problems/merge-intervals/ "LeetCode") ------------> Array, Sorting, Optimized Brute Force
 
 ### 6. ---> [Find Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/ "LeetCode") ------------> Array, Fast-Slow Pointer, Floyd's Cycle detection, Linked list loop detection
+
+# Day-2:
+
+### 7. ---> [Set Matrix Zeros](https://leetcode.com/problems/set-matrix-zeroes/ "LeetCode") ------------> Array, Matrix, In-place Hash Map
+
+### 8. ---> [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/ "LeetCode") ------------> Array,
+
+### 9. ---> [Next Permutation](https://leetcode.com/problems/next-permutation/ "LeetCode") ------------> Array, Two pointers
+
+### 10. ---> [Count Inversions](https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1 "GeeksforGeeks") ------------> Array,
