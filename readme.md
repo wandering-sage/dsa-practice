@@ -75,12 +75,16 @@
 
 #### 30. --> [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/ "LeetCode") ------------> Linked List, Maths
 
-## Day-5: Linked List Advanced
+## Day-6: Linked List Advanced
 
 #### 31. --> [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/ "LeetCode") ------------> Linked List, Two Pointers, Hasing
 
 #### 32. --> [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/ "LeetCode") ------------> Linked List, Fast and Slow Pointer, Hashing
 
-#### 33. --> [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/ "LeetCode") ------------> Linked List,
+#### 33. --> [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/ "LeetCode") ------------> Linked List, Smart Approch
+
+#### 34. --> [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/ "LeetCode") ------------> Linked List, Smart Approch, Two Pointers
+
+#### 35. --> [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/ "LeetCode") ------------> Linked List,
 
 #### 3. --> [Name](link "LeetCode") ------------> Topic,
