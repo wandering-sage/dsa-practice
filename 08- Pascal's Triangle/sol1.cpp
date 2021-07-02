@@ -3,7 +3,7 @@ using namespace std;
 
 // Using Optimized Brute Force
 
-// time-->O(N*M)          space-->O(N+M)
+// time-->O(N*N)          space-->O(N*N)
 
 vector<long long> nthRowOfPascalTriangle(int n)
 {
