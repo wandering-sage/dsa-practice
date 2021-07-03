@@ -81,10 +81,26 @@
 
 #### 32. --> [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/ "LeetCode") ------------> Linked List, Fast and Slow Pointer, Hashing
 
-#### 33. --> [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/ "LeetCode") ------------> Linked List, Smart Approch
+#### 33. --> [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/ "LeetCode") ------------> Linked List, Smart Approch, Reverse The Linked List
 
-#### 34. --> [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/ "LeetCode") ------------> Linked List, Smart Approch, Two Pointers
+#### 34. --> [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/ "LeetCode") ------------> Linked List, Find the Middle of Linked List, Reverse The Linked List, Two Pointers
 
-#### 35. --> [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/ "LeetCode") ------------> Linked List,
+#### 35. --> [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/ "LeetCode") ------------> Linked List, Floyd's Cycle Detection, Fast and Slow Pointer, Tortoise and Hare Algorithm
+
+#### 36. --> [Flattening a Linked List](https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1# "GeeksForGeeks") ------------> Linked List, Merge Two Sorted List, Two Pointers
+
+#### 37. --> [Rotate List](https://leetcode.com/problems/rotate-list/ "LeetCode") ------------> Linked List, Smart Approch
+
+## Day-7: Two Pointer
+
+#### 38. --> [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/ "LeetCode") ------------> Two Pointer, Linked List, Hash Map
+
+#### 3. --> [Name](link "LeetCode") ------------> Topic,
+
+#### 3. --> [Name](link "LeetCode") ------------> Topic,
+
+#### 3. --> [Name](link "LeetCode") ------------> Topic,
+
+#### 3. --> [Name](link "LeetCode") ------------> Topic,
 
 #### 3. --> [Name](link "LeetCode") ------------> Topic,
