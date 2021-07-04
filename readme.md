@@ -95,12 +95,30 @@
 
 #### 38. --> [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/ "LeetCode") ------------> Two Pointer, Linked List, Hash Map
 
-#### 3. --> [Name](link "LeetCode") ------------> Topic,
+#### 39. --> [Three Sum](https://leetcode.com/problems/3sum/ "LeetCode") ------------> Two pointers, Array, Sorting
 
-#### 3. --> [Name](link "LeetCode") ------------> Topic,
+#### 40. --> [Traping Rain Water](https://leetcode.com/problems/trapping-rain-water/ "LeetCode") ------------> Two pointers, Array, Monotonic Stack
 
-#### 3. --> [Name](link "LeetCode") ------------> Topic,
+#### 41. --> [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/ "LeetCode") ------------> Two pointers, Array
 
-#### 3. --> [Name](link "LeetCode") ------------> Topic,
+#### 42. --> [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/ "LeetCode") ------------> Two Pointers, Array
 
-#### 3. --> [Name](link "LeetCode") ------------> Topic,
+## Day-8: Greedy
+
+#### 43. --> [N meetings in one room](https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1 "GeeksForGeeks") ------------> Greedy, Sorting
+
+#### 44. --> [Minimum Platforms](https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1# "GeeksForGeeks") ------------> Greedy, Sorting, Two pointers
+
+#### 45. --> [Job Sequencing Problem](https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1# "GeeksForGeeks") ------------> Greedy,
+
+#### 46. --> [Name](link "LeetCode") ------------> Greedy,
+
+#### 47. --> [Name](link "LeetCode") ------------> Greedy,
+
+#### 48. --> [Name](link "LeetCode") ------------> Greedy,
+
+## Day-9: Recursion
+
+#### 49. --> [Name](link "LeetCode") ------------> Topic,
+
+#### 5. --> [Name](link "LeetCode") ------------> Topic,
