@@ -14,41 +14,42 @@ struct Job
 
 bool compare(Job i1, Job i2)
 {
-  if (i1.dead == i2.dead)
-    return i1.profit > i2.profit;
-  return (i1.dead < i2.dead);
+  return i1.profit > i2.profit;
 }
 
 vector<int> JobScheduling(Job arr[], int n)
 {
-  priority_queue<int, vector<int>, greater<int>> minHeap;
+  vector<int> jobs(101, 0);
   vector<int> ans;
   int total = 0, count = 0, j;
 
   sort(arr, arr + n, compare);
 
-  minHeap.push(arr[0].profit);
-
-  for (int i = 1; i < n; i++)
+  for (int i = 0; i < n; i++)
   {
-    if (arr[i].dead > minHeap.size())
+    if (jobs[arr[i].dead] != 0)
     {
-      minHeap.push(arr[i].profit);
+      j = 1;
+      int d = arr[i].dead;
+      while (j < d)
+      {
+        if (jobs[d - j] == 0)
+        {
+          jobs[d - j] = arr[i].profit;
+          count++;
+          total += arr[i].profit;
+          break;
+        }
+        j++;
+      }
     }
-    else if (minHeap.top() < arr[i].profit)
+    else
     {
-      minHeap.pop();
-      minHeap.push(arr[i].profit);
+      jobs[arr[i].dead] = arr[i].profit;
+      count++;
+      total += arr[i].profit;
     }
   }
-
-  while (minHeap.empty() == false)
-  {
-    count++;
-    total += minHeap.top();
-    minHeap.pop();
-  }
-
   ans.push_back(count);
   ans.push_back(total);
   return ans;

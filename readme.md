@@ -111,14 +111,14 @@
 
 #### 45. --> [Job Sequencing Problem](https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1# "GeeksForGeeks") ------------> Greedy,
 
-#### 46. --> [Name](link "LeetCode") ------------> Greedy,
+#### 46. --> [Number of Coins](https://practice.geeksforgeeks.org/problems/number-of-coins1824/1# "GeeksForGeeks") ------------> Greedy, Sorting
 
-#### 47. --> [Name](link "LeetCode") ------------> Greedy,
+#### 47. --> [Fractional Knapsack](https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1# "GeeksForGeeks") ------------> Greedy, Sorting
 
-#### 48. --> [Name](link "LeetCode") ------------> Greedy,
+#### 48. --> [Activity Selection](https://practice.geeksforgeeks.org/problems/activity-selection-1587115620/1# "GeeksForGeeks") ------------> Greedy, Sorting
 
 ## Day-9: Recursion
 
-#### 49. --> [Name](link "LeetCode") ------------> Topic,
+#### 49. --> [Subset Sums](https://practice.geeksforgeeks.org/problems/subset-sums2234/1 "GeeksForGeeks") ------------> Recursion, Memoization
 
 #### 5. --> [Name](link "LeetCode") ------------> Topic,
