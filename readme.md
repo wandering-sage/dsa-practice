@@ -121,4 +121,30 @@
 
 #### 49. --> [Subset Sums](https://practice.geeksforgeeks.org/problems/subset-sums2234/1 "GeeksForGeeks") ------------> Recursion, Memoization
 
-#### 5. --> [Name](link "LeetCode") ------------> Topic,
+#### 50. --> [Subsets II](https://leetcode.com/problems/subsets-ii/ "LeetCode") ------------> Recursion, Array
+
+#### 51. --> [Combination Sum](https://leetcode.com/problems/combination-sum/ "LeetCode") ------------> Recursion, Array
+
+#### 52. --> [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/ "LeetCode") ------------> Recursion, Array
+
+#### 53. --> [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/ "LeetCode") ------------> Recursion, String,
+
+#### 54. --> [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/ "LeetCode") ------------> Recursion, String, Math
+
+## Day-10: Back Tracking
+
+#### 55. --> [Permutations](https://leetcode.com/problems/permutations/ "LeetCode") ------------> BackTracking, Array, Recursion
+
+#### 56. --> [N-Queens](https://leetcode.com/problems/n-queens/ "LeetCode") ------------> BackTracking, 2D Array, Recursion
+
+#### 57. --> [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/ "LeetCode") ------------> BackTracking, 2D Array, Recursion
+
+#### 58. --> [M Coloring](https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/ "GeeksForGeeks") ------------> BackTracking, Graph, Recursion
+
+#### 59. --> [Rat in a Maze](https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1 "GeeksForGeeks") ------------> BackTracking, Array, Matrix, Recursion
+
+## Day-10: Binary Search
+
+#### 60. --> [N-th Root](https://practice.geeksforgeeks.org/problems/find-nth-root-of-m5843/1 "GeeksForGeeks") ------------> Binary Search, Maths
+
+#### 6. --> [Name](link "LeetCode") ------------> Topic,
