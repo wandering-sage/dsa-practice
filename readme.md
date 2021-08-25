@@ -139,7 +139,7 @@
 
 #### 57. --> [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/ "LeetCode") ------------> BackTracking, 2D Array, Recursion
 
-#### 58. --> [M Coloring](https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/ "GeeksForGeeks") ------------> BackTracking, Graph, Recursion
+#### 58. --> [M Coloring](https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1 "GeeksForGeeks") ------------> BackTracking, Graph, Recursion
 
 #### 59. --> [Rat in a Maze](https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1 "GeeksForGeeks") ------------> BackTracking, Array, Matrix, Recursion
 
